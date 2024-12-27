@@ -1,0 +1,284 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: 'IRANSans';
+}
+
+/* this css is code is related to a package from react */
+.ReactCollapse--collapse {
+  transition: 400ms;
+}
+
+/* Hero-section-backgroundImage */
+#Hero-section-full-container {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/hero-bg-layer.png'),
+    url('../public/assets/images/bg-layer-3.png'),
+    url('../public/assets/images/bg-layer-4.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center, top 12.53px left -951px, top 610px left 1350px,
+    top 200px left 36px;
+  background-size: cover, cover, 256px 226px, 179px 187px;
+}
+
+/* Dashboard pages css codes to Apply grid layout and different backgroundImages */
+/* dashboard-home-page */
+#dashboard-home-page {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/bg-layer-2.png'),
+    url('../public/assets/images/bg-layer-3.png'),
+    url('../public/assets/images/bg-layer-4.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center, top 127.53px left -951px, top 710px left 1650px,
+    top 280px left 176px;
+  background-size: cover, 2258.06px 1705px, 256px 226px, 179px 187px;
+}
+.dashboard-home-page-section-container {
+  display: grid;
+  grid-auto-flow: column;
+}
+/* dashboard-page-1 */
+#dashboard-page-1-fully-container {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/bg-layer-2.png'),
+    url('../public/assets/images/bg-layer-3.png'),
+    url('../public/assets/images/bg-layer-4.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center, top 127.53px left -951px, top 710px left 1650px,
+    top 280px left 176px;
+  background-size: cover, 2258.06px 1705px, 256px 226px, 179px 187px;
+}
+
+.dashboard-page-1-section-container {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+/* dashboard-page-2 */
+#dashboard-page-2-fully-container {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/bg-layer-2.png'),
+    url('../public/assets/images/bg-layer-3.png'),
+    url('../public/assets/images/bg-layer-4.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center, top 127.53px left -951px, top 710px left 1650px,
+    top 280px left 230px;
+  background-size: cover, 2258.06px 1705px, 256px 226px, 179px 187px;
+}
+
+/* dashboard-page-3 */
+#dashboard-page-3 {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/bg-layer-2.png'),
+    url('../public/assets/images/bg-layer-3.png'),
+    url('../public/assets/images/bg-layer-4.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center, top 127.53px left -951px, top 710px left 1650px,
+    top 280px left 280px;
+  background-size: cover, 2258.06px 1705px, 256px 226px, 179px 187px;
+}
+
+/* dashboard-page-4 */
+#dashboard-page-4-fully-container {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/bg-layer-2.png'),
+    url('../public/assets/images/bg-layer-3.png'),
+    url('../public/assets/images/bg-layer-4.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center, top 127.53px left -951px, top 710px left 1330px,
+    top 280px left 176px;
+  background-size: cover, 2258.06px 1705px, 256px 226px, 179px 187px;
+}
+.dashboard-page-4-section-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+/* dashboard-page-5 */
+#dashboard-page-5-fully-container {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/bg-layer-2.png'),
+    url('../public/assets/images/bg-layer-3.png'),
+    url('../public/assets/images/bg-layer-4.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center, top 127.53px left -951px, top 710px left 1650px,
+    top 280px left 280px;
+  background-size: cover, 2258.06px 1705px, 256px 226px, 179px 187px;
+}
+
+/* dashboard-page-6 */
+#dashboard-page-6-fully-container {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/bg-layer-2.png'),
+    url('../public/assets/images/bg-layer-3.png'),
+    url('../public/assets/images/bg-layer-4.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center, top 127.53px left -951px, top 710px left 1650px,
+    top 280px left 280px;
+  background-size: cover, 2258.06px 1705px, 256px 226px, 179px 187px;
+}
+
+/* dashboard-page-7 */
+#dashboard-page-7-fully-container {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/bg-layer-2.png'),
+    url('../public/assets/images/bg-layer-3.png'),
+    url('../public/assets/images/bg-layer-4.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center, top 127.53px left -951px, top 710px left 1650px,
+    top 280px left 230px;
+  background-size: cover, 2258.06px 1705px, 256px 226px, 179px 187px;
+}
+
+/* suggested-modules-fully-page-container */
+#suggested-modules-fully-page-container {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/chat-box-section-bg-layer-1.png'),
+    url('../public/assets/images/chat-box-section-bg-layer-2.png');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center, top 115.53px left 151px, top 710px left 1650px;
+  background-size: cover, 207px 193px, 256px 226px;
+}
+
+/* business-modules-selection-page-1 */
+#business-modules-selection-page-1 {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/chat-box-section-bg-layer-1.png'),
+    url('../public/assets/images/chat-box-section-bg-layer-2.png');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center, top 115.53px left 151px, top 710px left 1650px;
+  background-size: cover, 207px 193px, 256px 226px;
+}
+
+/* store-maker-pages css codes */
+
+/* store-maker-page-1 */
+#store-maker-page-1-fully-container {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/bg-layer-2.png'),
+    url('../public/assets/images/bg-layer-3.png'),
+    url('../public/assets/images/bg-layer-4.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center, top 127.53px left -951px, top 710px left 1650px,
+    top 280px left 176px;
+  background-size: cover, 2258.06px 1705px, 256px 226px, 179px 187px;
+}
+
+/* store-maker-page-2 */
+#store-maker-page-2-fully-container {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/bg-layer-2.png'),
+    url('../public/assets/images/bg-layer-3.png'),
+    url('../public/assets/images/bg-layer-4.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center, top 127.53px left -951px, top 710px left 1650px,
+    top 280px left 176px;
+  background-size: cover, 2258.06px 1705px, 256px 226px, 179px 187px;
+}
+
+/* store-maker-page-3 */
+#store-maker-page-3-fully-container {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/bg-layer-2.png'),
+    url('../public/assets/images/bg-layer-3.png'),
+    url('../public/assets/images/bg-layer-4.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center, top 127.53px left -951px, top 710px left 1650px,
+    top 280px left 176px;
+  background-size: cover, 2258.06px 1705px, 256px 226px, 179px 187px;
+}
+
+/* store-maker-page-4 */
+#store-maker-page-4-fully-container {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/bg-layer-2.png'),
+    url('../public/assets/images/bg-layer-3.png'),
+    url('../public/assets/images/bg-layer-4.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: center, top 127.53px left -951px, top 710px left 1650px,
+    top 280px left 176px;
+  background-size: cover, 2258.06px 1705px, 256px 226px, 179px 187px;
+}
+
+/* store-maker-chat-box-page-1 */
+#store-maker-chat-box-page-1 {
+  background-image: url('../public/assets/images/store-maker-chatbox-pages-bg-1.svg'),
+    url('../public/assets/images/store-maker-chatbox-pages-bg-2.svg'),
+    url('../public/assets/images/bg-layer-1.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: top 670px left 1350px, top 20px left 336px, center;
+  background-size: 256px 226px, 179px 187px, cover;
+}
+
+/* store-page-select-default-logo */
+#store-page-select-default-logo-fully-container {
+  background-image: url('../public/assets/images/store-maker-chatbox-pages-bg-1.svg'),
+    url('../public/assets/images/store-maker-chatbox-pages-bg-2.svg'),
+    url('../public/assets/images/bg-layer-1.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: top 710px left 1450px, top 30px left 336px, center;
+  background-size: 256px 226px, 179px 187px, cover;
+}
+
+/* store-maker-store-page-graphic-format-selector */
+#store-maker-store-page-graphic-format-selector-fully-container {
+  background-image: url('../public/assets/images/store-maker-chatbox-pages-bg-1.svg'),
+    url('../public/assets/images/store-maker-chatbox-pages-bg-2.svg'),
+    url('../public/assets/images/bg-layer-1.png');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: top 710px left 1450px, top 30px left 155px, center;
+  background-size: 256px 226px, 179px 187px, cover;
+}
+
+/* graphic-assistant-pages-css-codes */
+#ga-page-1-fully-container {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/bg-layer-3.png'),
+    url('../public/assets/images/bg-layer-4.png');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center, top 710px left 1650px, top 280px left 176px;
+  background-size: cover, 256px 226px, 179px 187px;
+}
+
+#ga-page-2-fully-container {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/bg-layer-3.png'),
+    url('../public/assets/images/bg-layer-4.png');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center, top 710px left 1300px, top 280px left 50px;
+  background-size: cover, 256px 226px, 179px 187px;
+}
+
+#ga-page-3-section-container {
+  background-image: url('../public/assets/images/bg-layer-1.png'),
+    url('../public/assets/images/bg-layer-3.png'),
+    url('../public/assets/images/bg-layer-4.png');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center, top 710px left 1300px, top 250px left 180px;
+  background-size: cover, 256px 226px, 179px 187px;
+}

@@ -1,0 +1,49 @@
+/* auth-pages-css */
+.welcome-page-full-container {
+  background-color: whitesmoke;
+}
+.welcome-page-full-container {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.register-page-full-container {
+  background-color: whitesmoke;
+}
+
+.register-page-full-container {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.completion-of-information-full-container {
+  background-color: whitesmoke;
+}
+
+.completion-of-information-full-container {
+  display: grid;
+  grid-auto-flow: column;
+}
+.forget-password-phonenumber-check-full-container {
+  background-color: whitesmoke;
+}
+.forget-password-phonenumber-check-full-container {
+  display: grid;
+  grid-auto-flow: column;
+}
+.resend-fp-code-full-container {
+  background-color: whitesmoke;
+}
+.resend-fp-code-full-container {
+  display: grid;
+  grid-auto-flow: column;
+}
+.set-new-password-full-container {
+  background-color: whitesmoke;
+}
+.set-new-password-full-container {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+
